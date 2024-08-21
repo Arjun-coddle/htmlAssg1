@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+}
+/* Navbar css */
+.nav-row{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: -7px 4px 20px -3px lightblue
+}
+.nav-lestside{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-lestside img{
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 50px;
+}
+.nav-rightside{
+    display: flex;
+    margin-top: 35px;
+}
+.nav-pages{
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* wellcome page  */
+.wellcome-page{
+    display: flex;
+    margin-top: 50px;
+}
+.wellcome-page-leftside{
+    width: 50%;
+}
+.wellcome-page-leftside-contents{
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.wellcome-page button{
+    border-radius: 15px;
+    height: 33px;
+    width: 150px;
+    background-color: #ddcbcb;
+    border: 0;
+}
+.wellcome-page button:hover{
+    background-color: skyblue;
+}
+/* footer  */
+footer{
+    margin-top: 50px;
+    background-color: #ddcbcb;
+    padding: 35px;
+}
+.footer-block{
+    display: flex;
+}
+.footer-leftside{
+    width: 50%;
+}
+.footer-leftside h1{
+    margin-left: 140px;
+}
+.footer-leftside p{
+    margin-left: 140px;
+    color: black;
+    text-align: left;
+}
+.footer-rightside{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.footer-rightside h6{
+    margin-left: 15px;
+}
+.footer-website{
+    width: 50%;
+}
+.footer-website img{
+    height: 100px;
+}
+.footer-email img{
+    height: 100px;
+}
+footer p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.37);
+}
